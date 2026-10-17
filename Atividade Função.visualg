@@ -1,0 +1,17 @@
+algoritmo "RotinasComRetorno"
+
+funcao somar(a: inteiro, b: inteiro): inteiro
+inicio
+    retorne a + b
+fimfuncao
+
+var
+    resultado1, resultado2: inteiro
+
+inicio
+    resultado1 <- somar(60, 7)
+    resultado2 <- somar(10, 4)
+
+    escreval("60 + 7 = ", resultado1)
+    escreval("10 + 4 = ", resultado2)
+fimalgoritmo  
