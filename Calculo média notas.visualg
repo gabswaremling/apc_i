@@ -1,0 +1,23 @@
+
+algoritmo "calculo_media_notas"
+
+var
+   nota1, nota2, media: real
+
+funcao calculomedianotas(n1, n2: real): real
+inicio
+   retorne (n1 + n2) / 2
+fimfuncao
+
+inicio
+   escreva("Digite a primeira nota: ")
+   leia(nota1)
+
+   escreva("Digite a segunda nota: ")
+   leia(nota2)
+
+   media <- calculomedianotas(nota1, nota2)
+
+   escreval("Media: ", media)
+
+fimalgoritmo
